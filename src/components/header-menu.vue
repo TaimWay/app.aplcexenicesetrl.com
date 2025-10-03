@@ -18,7 +18,7 @@
           <a href="/about" class="nav-link">关于</a>
         </li>
         <li class="nav-item">
-          <a href="https://github.com/" class="nav-link useWebFonts">Github</a>
+          <a href="https://github.com/TaimWay/app.aplcexenicesetrl.com" class="nav-link useWebFonts">Github</a>
         </li>
       </ul>
     </div>
