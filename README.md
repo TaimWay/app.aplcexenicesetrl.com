@@ -7,7 +7,7 @@ APlcexenicesetrl Apps 是一个集合了多种实用功能的网站工具箱，�
 如果你要构建该网站，请使用 git 拉取该仓库
 
 ```bash
-git clone https://github.com/TaimWay/apps.aplcexenicesetrl.com.git
+git clone https://github.com/TaimWay/app.aplcexenicesetrl.com.git
 ```
 
 拉取仓库后使用 npm 构建该项目。只需要在根目录下运行
