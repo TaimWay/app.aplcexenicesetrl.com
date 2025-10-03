@@ -1,0 +1,178 @@
+:root {
+    /* 基础主题色 */
+    --color-primary: #ff4757;
+    --color-primary-hover: #ff6b81;
+    --color-error: #e84118;
+    --color-success: #2ed573;
+    --color-warning: #ffa502;
+    --color-info: #1e90ff;
+    
+    /* 背景颜色 */
+    --bg-body: #ffffff;
+    --bg-page: #f8f9fa;
+    --bg-section: rgba(248, 249, 250, 0.7);
+    --bg-footer: rgba(255, 255, 255, 0.9);
+    --bg-card: rgba(255, 255, 255, 0.8);
+    --bg-card-glass: rgba(255, 255, 255, 0.25);
+    --bg-icon: rgba(255, 71, 87, 0.12);
+    --bg-input: #f8f9fa;
+    --bg-tag: rgba(255, 71, 87, 0.1);
+    --bg-badge: rgba(255, 71, 87, 0.15);
+    
+    /* 文字颜色 */
+    --text-primary: #2d3436;
+    --text-secondary: #636e72;
+    --text-button: #ffffff;
+    --text-tag: #ff4757;
+    --text-badge: #ff4757;
+    
+    /* 边框和阴影 */
+    --border-card: rgba(255, 255, 255, 0.4);
+    --border-card-glass: rgba(255, 255, 255, 0.18);
+    --border-input: #dfe6e9;
+    --border-input-focus: #ff4757;
+    --border-tag: rgba(255, 71, 87, 0.3);
+    --border-badge: rgba(255, 71, 87, 0.4);
+    
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --shadow-input: 0 2px 8px rgba(0, 0, 0, 0.05);
+    --shadow-tag: 0 2px 6px rgba(255, 71, 87, 0.15);
+    --shadow-badge: 0 4px 12px rgba(255, 71, 87, 0.2);
+    
+    /* 圆角 */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+    --radius-app-card: 20px;
+    --radius-app-icon: 18px;
+    --radius-tag: 20px;
+    --radius-badge: 24px;
+    
+    /* 过渡动画 */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    --transition-bounce: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+    /* 布局间距 */
+    --spacing-app-grid: 20px;
+    --padding-app-card: 24px;
+    
+    /* 组件特定变量 */
+    --header-main-color: rgba(255, 255, 255, 0.85);
+    --header-main-border: rgba(240, 240, 240, 0.6);
+    --logo-color: #ff4757;
+    --logo-glow: rgba(255, 71, 87, 0.4);
+    
+    --app-title-color: #000;
+    --app-title-bar: #ff4757;
+    --app-index-icon-color: #636e72;
+    --app-index-text-color: #2d3436;
+    --app-index-bg-hover: rgba(255, 71, 87, 0.1);
+    --app-index-bg-active: #ff4757;
+    --app-index-icon-active: #ffffff;
+    --app-index-text-active: #ffffff;
+    
+    /* 表单控件 */
+    --button-bg: #ff4757;
+    --button-bg-hover: #ff3838;
+    --slider-track: #dfe6e9;
+    --slider-thumb: #ff4757;
+    --checkbox-bg: #ffffff;
+    --checkbox-border: #dfe6e9;
+    --checkbox-checked: #ff4757;
+    --link-color: #ff4757;
+    --link-visited: #6c5ce7;
+    
+    /* 滚动条 */
+    --scrollbar-bg: transparent;
+    --scrollbar-thumb: #ff4757;
+    --scrollbar-thumb-hover: #ff6b81;
+
+    /* APP 元素色 */
+    --app-header-title: var(--color-primary);
+    --app-header-title-glow: var(--logo-color);
+    --app-header-subtitle: var(--text-secondary);
+
+    /* 美化元素 */
+    --ui-text-hidder-color: var(--text-button);
+    --ui-text-hidder-bg: var(--text-primary);
+    --ui-select-border: #cecece;
+    --ui-select-bg: var(--bg-card);
+    --ui-select-picker: #ccc;
+    --ui-opition-bg: #fff;
+    --ui-opition-focus: #ff4d59;
+    --ui-opition-hover: #ff000075;
+    --ui-opition-checkmark: #efefef;
+    --ui-switch-toggle: rgba(220, 46, 46, 0.5);
+    --ui-switch-label-before: #da7a7a;
+    --ui-switch-label-span: #dc2e2e;
+    --ui-switch-label-shadow: rgba(220, 46, 46, 0.2);
+}
+
+html[theme="dark"] {
+    /* 基础主题色 */
+    --color-primary: #ff6b81;
+    --color-primary-hover: #ff9f9f;
+    --color-success: #44bd32;
+    --color-warning: #e1b12c;
+    --color-info: #0097e6;
+    
+    /* 背景颜色 */
+    --bg-body: #1e272e;
+    --bg-page: #2f3640;
+    --bg-section: rgba(47, 54, 64, 0.6);
+    --bg-footer: rgba(30, 39, 46, 0.9);
+    --bg-card: rgba(47, 54, 64, 0.8);
+    --bg-card-glass: rgba(47, 54, 64, 0.4);
+    --bg-icon: rgba(255, 107, 129, 0.15);
+    --bg-input: #353b48;
+    --bg-tag: rgba(255, 107, 129, 0.15);
+    --bg-badge: rgba(255, 107, 129, 0.2);
+    
+    /* 文字颜色 */
+    --text-primary: #f5f6fa;
+    --text-secondary: #dcdde1;
+    --app-title-color: #efefef;
+    --text-tag: #ff6b81;
+    --text-badge: #ff6b81;
+    
+    /* 边框和阴影 */
+    --border-card: rgba(255, 255, 255, 0.1);
+    --border-card-glass: rgba(255, 255, 255, 0.1);
+    --border-input: #353b48;
+    --border-input-focus: #ff6b81;
+    --border-tag: rgba(255, 107, 129, 0.4);
+    --border-badge: rgba(255, 107, 129, 0.5);
+    
+    --shadow-input: 0 2px 8px rgba(0, 0, 0, 0.2);
+    --shadow-tag: 0 2px 6px rgba(255, 107, 129, 0.25);
+    --shadow-badge: 0 4px 12px rgba(255, 107, 129, 0.3);
+    
+    /* 组件特定变量 */
+    --header-main-color: rgba(30, 39, 46, 0.9);
+    --header-main-border: rgba(99, 110, 114, 0.4);
+    --logo-color: #ff6b81;
+    --logo-glow: rgba(255, 107, 129, 0.6);
+    
+    --app-index-icon-color: #dcdde1;
+    --app-index-text-color: #f5f6fa;
+    
+    /* 表单控件 */
+    --button-bg: #ff6b81;
+    --button-bg-hover: #ff4757;
+    --slider-track: #353b48;
+    --slider-thumb: #ff6b81;
+    --checkbox-bg: #2f3640;
+    --checkbox-border: #353b48;
+    --checkbox-checked: #ff6b81;
+    --link-color: #ff6b81;
+    --link-visited: #a29bfe;
+    
+    /* 滚动条 */
+    --scrollbar-thumb: #ff6b81;
+    --scrollbar-thumb-hover: #ff9f9f;
+}
