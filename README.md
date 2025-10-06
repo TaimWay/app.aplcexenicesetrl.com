@@ -13,6 +13,7 @@ git clone https://github.com/TaimWay/app.aplcexenicesetrl.com.git
 拉取仓库后使用 npm 构建该项目。只需要在根目录下运行
 
 ```bash
+npm install
 npm run build
 ```
 
