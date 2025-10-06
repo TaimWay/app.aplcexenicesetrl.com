@@ -221,9 +221,9 @@ export default {
         },
         {
           id: 3,
-          name: 'Base64编码',
-          description: '快速将文本或文件转换为Base64编码',
-          path: 'base64-encode',
+          name: 'BaseX编码',
+          description: '快速将文本或文件转换为BaseX编码',
+          path: 'basex-code',
           icon: {
             viewBox: '0 0 24 24',
             fill: 'currentColor',
@@ -299,11 +299,11 @@ export default {
     },
     navigateToTool(path) {
       // 在实际应用中，这里应该使用Vue Router进行导航
-      this.$router.push('/apps/' + path);
+      this.$router.push('/app/' + path);
     },
     navigateToApps() {
       // 在实际应用中，这里应该使用Vue Router进行导航
-      this.$router.push('/apps');
+      this.$router.push('/app');
     }
   }
 }
